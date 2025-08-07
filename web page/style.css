@@ -1,0 +1,455 @@
+ .menu{
+    background-color: #997A4E;
+    width:1520px;
+    height:131px;
+    position: relative;
+    display: flex;
+ }
+ .Aj{
+    
+    background-color: #816C46;
+    margin-left:1225px;
+    height: 714px;
+    width:300px;
+ }
+.video{
+    margin-top:200px;
+    
+}
+ .menu img{
+    width: 1228px;
+    height:585px;
+    position: absolute;
+    margin-top:130px;
+    z-index: 1;
+ }
+nav{
+    width:2px;
+    height:2px;
+    text-decoration: none;
+}
+nav ul{
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 100px;
+    margin-top:10px; 
+    display: flex;
+}
+nav ul a li{
+    color:#F1CFA0;
+    font-size: 23px;
+    list-style: none;
+    margin: 50px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: white;
+}
+.back{
+    margin-top:100px;
+    margin-left:90px;
+    width:200px;
+    height:200px;
+    border-radius: 30px;
+    background-color: #D4BA95;
+    z-index:-1;
+   
+}
+.back img{
+    margin-top:25px;
+    margin-bottom: 1000px;
+    margin-left: 25px;
+    width:150px;
+    height: 150px;
+    border-radius:30px ;
+    z-index: 1px;
+    animation: fadeImage 10s infinite;
+}
+
+.brown1{
+    width:200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #CDA384;
+    margin-bottom:700px;
+}
+.brown1 img{
+    width:170px;
+    height: 170px;
+    border-radius: 30px;
+    margin-top:15px;
+    margin-left:15px;
+    z-index: -1px;
+    animation: fadeImage 10s infinite;
+}
+.verjin{
+    margin-top:-700px;
+    margin-left:90px;
+    width:200px;
+    height:200px;
+    border-radius: 30px;
+    background-color: #F1CFA0;
+}
+.verjin img{
+    width:170px;
+    height: 170px;
+    border-radius: 30px;
+    margin-top:15px;
+    margin-left:15px;
+    z-index:-1px;
+    animation: fadeImage 10s infinite;
+}
+.history{
+   width:200px;
+   height: 80px;
+   border:6px solid;
+   border-color: #4F270A;
+   margin-left:-800px;
+   margin-top:200px;
+   border-radius: 50px;
+   z-index: 1;
+}
+.history:hover{
+    font-size: 17px;
+}
+.image.first {
+    animation-delay: 0s; 
+}
+
+
+@keyframes fadeImage {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.Art:hover{
+    font-size: 17px;
+}
+.history h1{
+    text-align: center;
+    color:white;
+    font-family:'Times New Roman', Times, serif ;
+    z-index: 1;
+}
+
+
+.text{
+    width:600px;
+    height:250px;
+    background-color:#AE8567 ;
+    border-radius: 50px;
+    margin-top:300px;
+    margin-left:-400px;
+    z-index: 1;
+    box-shadow: inset;
+}
+.text p{
+    font-size: 18px;
+    width:-200px;
+    height:-700px;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.nkar1{
+    background-color:#D4BA95 ;
+    width:300px;
+    height: 300px;
+    border-radius: 40px;
+    margin-left: -1000px;
+    margin-top:200px;
+    z-index: 1;
+}
+.nkar1:hover{
+    width:300px;
+    height:300px;
+  
+}
+.pic img{
+    width:250px;
+    height: 250px;
+    margin-right: 25px;
+    margin-top:25px;
+    margin-left:25px;
+    /* margin-bottom:50px; */
+    border-radius: 40px;
+    z-index: 1;
+}
+.Art{
+    width:200px;
+    height: 80px;
+    border:7px solid;
+    border-color: #4F270A;
+    margin-left:-800px;
+    margin-top:200px;
+    border-radius: 50px;
+    z-index: 1;
+ }
+ .Art h1{
+    margin-top:20px;
+    text-align: center;
+    color:white;
+    font-family:'Times New Roman', Times, serif ;
+    z-index: 1;
+ }
+ .text3{
+    width:600px;
+    height:230px;
+    background-color:#AE8567 ;
+    border-radius: 50px;
+    margin-top:300px;
+    margin-left:-400px;
+    z-index: 1;
+}
+.text3 p{
+    font-size: 18px;
+    width:-200px;
+    height:-700px;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right: 20px;
+    z-index: 1;
+}
+.nkar2{
+    background-color:#F1CFA0;
+    width:300px;
+    height: 300px;
+    border-radius: 40px;
+    margin-left: -1000px;
+    margin-top:200px;
+    z-index: 1;
+}
+.pic2 img{
+    width:250px;
+    height: 250px;
+    margin-right: 25px;
+    margin-top:25px;
+    margin-left:25px;
+    /* margin-bottom:50px; */
+    border-radius: 40px;
+    z-index: 1;
+}
+.Architecture{
+    width:300px;
+    height: 80px;
+     border:7px solid;
+    border-color: #4F270A;
+    margin-left:-1300px;
+    margin-top:200px;
+    border-radius: 50px;
+    z-index: 1;
+}
+.Architecture:hover{
+    font-size: 17px;
+}
+.Architecture h1{
+    margin-top:20px;
+    text-align: center;
+    color:white;
+    font-family:'Times New Roman', Times, serif ;
+    z-index: 1;
+}
+.text4{
+    width:600px;
+    height:220px;
+    background-color:#AE8567 ;
+    border-radius: 50px;
+    margin-top:300px;
+    margin-left:-400px;
+    z-index: 1;
+}
+.text4 p{
+    width:-200px;
+    height:-700px;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right: 20px;
+    z-index: 1;
+    font-size: 18px;
+}
+.nkar3{
+    background-color:#F1CFA0;
+    width:300px;
+    height: 300px;
+    border-radius: 40px;
+    margin-left: 100px;
+    margin-top:200px;
+    z-index: 1;
+}
+
+.pic3 img{
+    width:250px;
+    height: 250px;
+    margin-right: 25px;
+    margin-top:25px;
+    margin-left:25px;
+    /* margin-bottom:50px; */
+    border-radius: 40px;
+    z-index: 1;
+
+}
+.pic3 img:hover{
+    width:250px;
+    height:250px;
+    content: url(https://i.pinimg.com/736x/01/c0/4b/01c04bec05c1e244ef97ef2f19431272.jpg);
+}
+.pic2 img:hover{
+    width:250px;
+    height: 250px;
+    content: url(https://i.pinimg.com/736x/55/0e/1c/550e1c4d422cd5762fdc3a59f2bddda6.jpg);
+}
+.Map{
+    width:300px;
+    height: 80px;
+    border:7px solid;
+    border-color: #4F270A;
+    margin-left:-1000px;
+    margin-top:140px;
+    border-radius: 50px;
+    z-index: 1;
+}
+.Map:hover{
+    font-size: 18px;
+}
+.Map h1{
+    margin-top:20px;
+    text-align: center;
+    color:white;
+    font-family:'Times New Roman', Times, serif ;
+    z-index: 1;
+}
+.nkar5{
+    background-color:#b88866;
+    width:300px;
+    height: 300px;
+    border-radius: 40px;
+    margin-left: -100px;
+    margin-top:300px;
+    z-index: 1;
+}
+.pic5 img{
+    width:250px;
+    height: 250px;
+    margin-right: 25px;
+    margin-top:25px;
+    margin-left:25px;
+    /* margin-bottom:50px; */
+    border-radius: 40px;
+    z-index: 1;
+}
+.nkar6{
+    position: fixed;
+    background-color:#d0ac79;
+    width:250px;
+    height: 250px;
+    border-radius: 40px;
+    margin-left: -470px;
+    margin-top:-80px;
+    z-index: 1;
+}
+.pic6 img{
+    position: fixed;
+    width:200px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top:25px;
+    margin-left:25px;
+    /* margin-bottom:50px; */
+    border-radius: 40px;
+    z-index: 1;
+}
+.nkar7{
+    background-color:#b29e81;
+    width:250px;
+    height: 250px;
+    border-radius: 40px;
+    margin-left: 210px;
+    margin-top:240px;
+    z-index: 1;
+    transition: 3s;
+}
+.pic7 img{
+    width:200px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top:25px;
+    margin-left:25px;
+    /* margin-bottom:50px; */
+    border-radius: 40px;
+    z-index: 1;
+}
+.nkar7 img:hover{
+    width:200px;
+    height: 200px;
+    content: url(https://cdn8.openculture.com/2017/04/12232821/Eratosthenes-Map.jpg); 
+}
+.menu img:hover{
+    background-color: #997a4e25;
+}
+.pic p:hover{
+    opacity: 60%;
+}
+.pic img:hover{
+    opacity: 40%;
+}
+.pic p{   
+    margin-right: 25px;
+    margin-top:25px;
+    margin-left:25px;
+}
+.nnkar{
+    width: 300px;
+    height: 300px;
+    background-color: #997A4E;
+    border-radius: 50px;
+    /* margin-right:100px; */
+    margin: 40px;
+}
+.Aj img:hover{
+    opacity:50%;
+}
+.history:hover{
+    background-color: #4F270A;
+}
+.Art:hover{
+    background-color: #4F270A;
+}
+.Architecture:hover{
+    background-color: #4F270A;
+}
+.Map:hover{
+    background-color: #4F270A;
+}
+.text p:hover{
+    opacity: 50%;
+}
+.text3 p:hover{
+    opacity: 50%;
+}
+.text4 p:hover{
+    opacity: 50%;
+}
+
+
+
